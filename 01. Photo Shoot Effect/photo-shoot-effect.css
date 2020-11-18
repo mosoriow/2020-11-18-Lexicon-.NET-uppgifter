@@ -1,0 +1,141 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img,{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+	width: 960px;
+	max-width: 960px;
+	margin: auto;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	color: #fcfcfc;
+	background-color: #355664;
+}
+
+header {
+	font-family: forte, Arial, sans-serif;
+}
+
+footer {
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #142830;
+	padding-top: 15px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 50px;
+	padding: 10px 0 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2 {
+	font-size: 40px;
+	letter-spacing: 15px;
+	text-align: center;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #416371;
+	padding-bottom: 20px;
+	font-family: forte, Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+h3 {
+	text-align: right;
+	font-size: 30px;
+	font-weight: normal;
+	margin: 0 0 10px;
+}
+
+p {
+	line-height: 20px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+p:nth-child(2) { color: #8EC45B; }
+
+figure {
+	width: 500px;
+	height: 300px;
+	border: 3px;
+	margin-right: 15px;
+	text-align: right;
+	float: right;
+}
+
+img {
+	width: 500px;
+	height: 300px;
+	border-radius: 10px;
+	border-color: #142830;
+	box-shadow: 2px 2px 5px black;
+}
+
+div.article-content {
+	margin: 15px;
+}
+
+nav {
+	background-color: #355664;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+a {
+	margin: 5px 2px;
+	padding: 7px 10px 4px;
+	font-size: 30px;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #7CB3E9;
+}
+
+a:hover {
+  color: #8EC45B;
+}
+
+a:active {
+  color: red;
+}
+
+article {
+	background-color: #213E4A;
+	padding: 20px;
+	margin: 0 0 10px;
+	border-radius: 10px;
+}
+
+ul {
+	list-style:none;
+	font-family: Arial, sans-serif;
+	text-align: left;
+}
+
+li {
+	font-size: 24px;
+	height: 40px;
+	padding: 20px;
+	display: inline-block;
+}
+
+li:nth-child(1) { text-transform: lowercase; }
+li:nth-child(3) { text-transform: uppercase; }
+
